@@ -1,0 +1,13 @@
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+Encoder_AHLab KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+getEncPosition  KEYWORD2
+getEncDirection KEYWORD2
+getEncDegree   KEYWORD2
