@@ -1,4 +1,4 @@
-# Encoder_AHLab
+# Encoder_library
 
 **Version:** 1.0  
 **Author:** Sohta Takada  
@@ -8,8 +8,8 @@
 ---
 
 ## Overview / 概要
-The `Encoder_AHLab` library provides functionality for measuring position, direction, and degree using rotary encoders. This library is designed for use in Arduino-based projects and supports easy integration with hardware using interrupt-based mechanisms.  
-`Encoder_AHLab`ライブラリは、ロータリーエンコーダを使用して位置、方向、角度を測定する機能を提供します。このライブラリはArduinoをベースとしたプロジェクトで使用するために設計されており、割り込みベースの仕組みを用いたハードウェアとの簡単な統合をサポートします。
+The `Encoder_library` library provides functionality for measuring position, direction, and degree using rotary encoders. This library is designed for use in Arduino-based projects and supports easy integration with hardware using interrupt-based mechanisms.  
+`Encoder_library`ライブラリは、ロータリーエンコーダを使用して位置、方向、角度を測定する機能を提供します。このライブラリはArduinoをベースとしたプロジェクトで使用するために設計されており、割り込みベースの仕組みを用いたハードウェアとの簡単な統合をサポートします。
 
 ---
 
@@ -24,8 +24,8 @@ The `Encoder_AHLab` library provides functionality for measuring position, direc
 ---
 
 ## Installation / インストール方法
-1. Download or clone this repository: [Encoder_AHLab](https://github.com/TakadaSohta/Encoder_AHLab).  
-   このリポジトリをダウンロードまたはクローンします: [Encoder_AHLab](https://github.com/TakadaSohta/Encoder_AHLab)。
+1. Download or clone this repository: [Encoder_library](https://github.com/TakadaSohta/Encoder_library).  
+   このリポジトリをダウンロードまたはクローンします: [Encoder_library](https://github.com/TakadaSohta/Encoder_library)。
 2. Copy the repository folder into your Arduino `libraries` directory.  
    リポジトリフォルダをArduinoの`libraries`ディレクトリにコピーします。
 3. Restart your Arduino IDE to load the library.  
@@ -45,10 +45,10 @@ The `Encoder_AHLab` library provides functionality for measuring position, direc
 
 ## Usage / 使用方法
 ### 1. Include the Library / ライブラリをインクルード
-Include the `Encoder_AHLab` library in your Arduino sketch:  
-Arduinoスケッチに`Encoder_AHLab`ライブラリをインクルードします:
+Include the `Encoder_library` library in your Arduino sketch:  
+Arduinoスケッチに`Encoder_library`ライブラリをインクルードします:
 ```cpp
-#include <Encoder_AHLab.h>
+#include <Encoder_library.h>
 ```
 
 ### 2. Initialize the Encoder / エンコーダの初期化
@@ -113,10 +113,10 @@ Encoder(int pinA, int pinB);
 ---
 
 ## Example / 例
-Below is a simple example sketch demonstrating the use of `Encoder_AHLab`:  
-以下は`Encoder_AHLab`の使用方法を示した簡単な例です:
+Below is a simple example sketch demonstrating the use of `Encoder_library`:  
+以下は`Encoder_library`の使用方法を示した簡単な例です:
 ```cpp
-#include <Encoder_AHLab.h>
+#include <Encoder_library.h>
 
 Encoder encoder(21, 22);
 
@@ -140,9 +140,9 @@ void loop() {
 
 ## Files in This Repository / リポジトリ内のファイル
 ### Source Code / ソースコード
-- **`Encoder_AHLab.cpp`**: Implementation of the `Encoder` class.  
+- **`Encoder_library.cpp`**: Implementation of the `Encoder` class.  
   `Encoder`クラスの実装。
-- **`Encoder_AHLab.h`**: Header file defining the `Encoder` class.  
+- **`Encoder_library.h`**: Header file defining the `Encoder` class.  
   `Encoder`クラスを定義するヘッダファイル。
 
 ### Examples / 例
